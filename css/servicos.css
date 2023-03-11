@@ -1,0 +1,28 @@
+main{
+    text-align: center;
+}
+
+main img:hover{
+    background-color: #BF861B;
+    border-radius: 20px;
+}
+
+.servico{
+    display: inline-block;
+    align-items: center;
+    padding: 60px;
+}
+
+@media only screen and (max-width:1024px){
+     
+       main img{
+    display: inline-block;
+    width: 100%;
+}
+
+
+    main img:hover{
+        background-color: gray;
+    }
+
+}
