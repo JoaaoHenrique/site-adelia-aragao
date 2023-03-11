@@ -13,6 +13,10 @@ main img:hover{
     padding: 60px;
 }
 
+footer{
+    padding-right: 3%;
+}
+
 @media only screen and (max-width:1024px){
      
        main img{
@@ -25,4 +29,7 @@ main img:hover{
         background-color: gray;
     }
 
+    footer{
+        padding-right: 0%;
+    }
 }
