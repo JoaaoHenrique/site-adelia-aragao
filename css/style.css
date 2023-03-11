@@ -68,8 +68,6 @@ section{
   font-family: 'Work Sans', sans-serif;
 }
 
-
-
 .topico{
   width: 100%;
   display: inline-block;
@@ -125,6 +123,19 @@ footer{
   justify-content: center;
   font-size: 15px;
   padding-right: 12%;
+}
+
+.button{
+  border: 0;
+  color: #0D0126;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.button:hover{
+  cursor: pointer;
+  color: #BF861B;
+  background-color: #0D0126;
 }
 
 

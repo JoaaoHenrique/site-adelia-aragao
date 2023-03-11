@@ -1,0 +1,50 @@
+
+form{
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    margin-top: 159px;
+    border-radius: 15px;
+    background-color: #BF861B;
+}
+
+form fieldset{
+    border: 0;
+}
+
+form fieldset label{
+    display: block;
+}
+
+form fieldset input, textarea{
+    width: 100%;
+}
+
+footer{
+    padding-right: 0%;
+}
+
+.redes{
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+@media only screen and (max-width:700px){
+    form{
+        width: 90%;
+    }
+
+    .redes{
+        font-size: 20px;
+        text-align: left;
+      }
+}
