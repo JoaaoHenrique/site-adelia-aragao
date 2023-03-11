@@ -58,6 +58,77 @@ nav{
   grid-template-columns: 1fr 3fr;
 }
 
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  margin-right: 20%;
+  margin-left: 10%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.topico{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  padding-right: 8%;
+}
+
+.topico2{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.secoes{
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.secao2{
+  background-color: #BF861B;
+  border-radius: 20px;
+  color: #000;
+  margin-left: 21%;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.texto-main{
+  font-size: 20px;
+  text-align: left;
+  justify-content: center;
+}
+
+.mapbox{
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #0D0126;
+  color: #fff;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding-right: 12%;
+}
+
+
+
 @media only screen and (max-width:1024px){
   header{
     width: 100%;
@@ -76,13 +147,77 @@ nav{
     flex-direction: column;
   }
 
+  section{
+  display: inline-block;
+  text-align: center;
+  margin-right: 0%;
+  margin-left: 0%;
+  }
+
+ section img{
+  width: 100%;
+ }
+
+ .secao2{
+  margin-left: 7%;
+ }
+
+ .topico{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-right: 0%;
+  font-family: 'Work Sans', sans-serif;
 }
 
-@media only screen and (max-width:1000px){
+footer{
+  font-size: 10px;
+  padding-right: 0%;
+}
+
+}
+
+@media only screen and (max-width:912px){
+  
+  .logo{
+    font-size: 45px;
+  }
+
+  a{
+    font-size: 40px;
+  }
+  
+  .secao2{
+    margin-left: 2.5%;
+   }
+
+   header img{
+    width: 14vw;
+    height: 9vh;
+    border-radius: 20%;
+  }
+
+
+}
+
+@media only screen and (max-width:910px){
+  .logo{
+    font-size: 24px;
+  }
+
+  a{
+    font-size: 20px;
+  }
+  
+
   header img{
     width: 18vw;
     height: 9vh;
     border-radius: 20%;
   }
-
+  
+  .secao2{
+    margin-left: 0%;
+   }
+  
 }
